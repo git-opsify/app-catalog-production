@@ -2,5 +2,5 @@ annotations:
   application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.1.tgz-meta/main.yaml
 chartApiVersion: v2
 chartFile: kyverno-policies-app-0.0.1.tgz
-dateCreated: '2022-06-21T17:32:45.618165'
-digest: 8e31359698a520756476cb23f2aa644c20625992d5ce084201c5f1c1b23bd8bd
+dateCreated: '2022-06-21T18:59:29.480431'
+digest: 4f37c94254554290c28bb6276df70d96e7e2baf8a455677a25e67a85d4e61bb8
