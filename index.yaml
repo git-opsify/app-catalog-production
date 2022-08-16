@@ -5,7 +5,7 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.3.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-06-23T13:17:34.196835989Z"
+    created: "2022-08-16T14:10:20.021789184Z"
     description: A Helm chart for Kyverno policies
     digest: bcf8559c53ed78c02114d61da1a7eebe6485b0a4c3ca4a0ac36b930b5188a247
     name: kyverno-policies-app
@@ -15,7 +15,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2022-06-23T13:17:34.196641301Z"
+    created: "2022-08-16T14:10:20.021497397Z"
     description: A Helm chart for Kyverno policies
     digest: effe3e68603b94b276e0c53976f4f08206f1c23b49fd649d04e5b1e3c38eba28
     name: kyverno-policies-app
@@ -27,7 +27,7 @@ entries:
       application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/kyverno-policies-app-0.0.1.tgz-meta/main.yaml
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-06-23T13:17:34.19646187Z"
+    created: "2022-08-16T14:10:20.021230729Z"
     description: A Helm chart for Kyverno policies
     digest: 4f37c94254554290c28bb6276df70d96e7e2baf8a455677a25e67a85d4e61bb8
     name: kyverno-policies-app
@@ -35,4 +35,17 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/kyverno-policies-app-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-23T13:17:34.196077843Z"
+  onboarding-operator-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-production/onboarding-operator-app-0.1.0.tgz-meta/main.yaml
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-08-16T14:10:20.022408459Z"
+    description: A Helm chart for Kubernetes
+    digest: 52fdec3c1cbb14b4f40f0961c4e2da12dec7bd1fdf34c2d64f16a9ab43d345d3
+    name: onboarding-operator-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-production/onboarding-operator-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-16T14:10:20.020726137Z"
