@@ -77,6 +77,16 @@ entries:
     version: 0.0.1
   onboarding-operator-app:
   - apiVersion: v2
+    appVersion: 0.1.6
+    created: "2022-09-12T14:28:52.005050685Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 7e9648f777ec58c59e37eca1907f4faf727b2b7c202089705a0b97354f340b41
+    name: onboarding-operator-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-production/onboarding-operator-app-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2022-09-01T14:48:45.475660391Z"
     description: A Helm chart for Kubernetes
@@ -98,4 +108,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-01T14:48:45.46633919Z"
+generated: "2022-09-12T14:28:52.004569988Z"
