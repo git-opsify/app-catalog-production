@@ -2,6 +2,25 @@ apiVersion: v1
 entries:
   argo-cd-app:
   - apiVersion: v2
+    appVersion: 5.5.16
+    created: "2022-10-11T13:11:21.446276521Z"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.5.16
+    description: 'A Helm chart for argo-cd. This acts as an umbrella chart. '
+    digest: 4419ad0d8778f32934187475a4bbddfdf6be25537b50f4295e8a741a783d34f9
+    home: https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/argo-cd-app
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    maintainers:
+    - name: pgeschinski
+    - name: rene
+    name: argo-cd-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-production/argo-cd-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 4.2.1
     created: "2022-09-01T14:48:45.473816266Z"
     dependencies:
@@ -110,4 +129,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-12T14:48:07.267017043Z"
+generated: "2022-10-11T13:11:21.436579414Z"
