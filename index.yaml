@@ -227,6 +227,17 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
+  tkp-customer-app:
+  - apiVersion: v2
+    appVersion: 0.1.4
+    created: "2022-12-07T04:05:59.144379157Z"
+    description: This chart create all required resources during tkp customer onboarding
+    digest: 1f62632d29dd4936593d95bc744e6319d092bfb5241a5353c77e3a7c3bac1718
+    name: tkp-customer-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-production/tkp-customer-app-0.1.4.tgz
+    version: 0.1.4
   tkp-customer-cluster-init-app:
   - apiVersion: v2
     appVersion: 0.1.1
@@ -239,4 +250,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/tkp-customer-cluster-init-app-0.1.1.tgz
     version: 0.1.1
-generated: "2022-12-06T12:45:45.408591599Z"
+generated: "2022-12-07T04:05:59.143865677Z"
