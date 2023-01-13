@@ -135,6 +135,16 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/authn-authz-operator-app-0.1.0-0.0.1.tgz
     version: 0.1.0-0.0.1
+  - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2023-01-13T15:00:33.92962614Z"
+    description: A Helm chart for Kubernetes
+    digest: 7d85762b2764184c482d77fcd97a68b3f3b48c6e57fd43e915a57682ca7767ef
+    name: authn-authz-operator-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-production/authn-authz-operator-app-0.0.2.tgz
+    version: 0.0.2
   kyverno-policies-app:
   - apiVersion: v2
     appVersion: 0.0.4
@@ -272,4 +282,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/tkp-customer-cluster-init-app-0.1.1.tgz
     version: 0.1.1
-generated: "2023-01-13T01:08:59.656264947Z"
+generated: "2023-01-13T15:00:33.929067566Z"
