@@ -1,0 +1,6 @@
+annotations:
+  application.giantswarm.io/metadata: https://git-opsify.github.io/app-catalog-sandbox/external-secrets-app-0.1.3.tgz-meta/main.yaml
+chartApiVersion: v2
+chartFile: external-secrets-app-0.1.3.tgz
+dateCreated: '2023-01-25T14:34:57.870488'
+digest: 72e8bb8f25514e7078bb44f8f7104e4b9bc360995f2b0b2f7c303f15a376916b
