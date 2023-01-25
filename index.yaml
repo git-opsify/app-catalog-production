@@ -3,13 +3,13 @@ entries:
   argo-cd-app:
   - apiVersion: v2
     appVersion: 5.16.0
-    created: "2022-12-06T12:31:54.918779389Z"
+    created: "2023-01-25T09:34:37.41698367Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
-      version: 5.16.0
+      version: 5.19.5
     description: 'A Helm chart for argo-cd. This acts as an umbrella chart. '
-    digest: 65c14cdac3876cde86034f2f94d2fb1f298fecd1beba2a0497b46ffa74016c43
+    digest: a6640e38eeb7b54ad0f06a77d0df53a81c76195064dd3c56002132eb6df06afe
     home: https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/argo-cd-app
     icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
     maintainers:
@@ -304,4 +304,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/tkp-customer-cluster-init-app-0.1.1.tgz
     version: 0.1.1
-generated: "2023-01-23T11:57:51.277974061Z"
+generated: "2023-01-25T09:34:37.408396518Z"
