@@ -191,6 +191,26 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/external-secrets-app-0.1.3.tgz
     version: 0.1.3
+  kube-prometheus-stack-app:
+  - apiVersion: v2
+    appVersion: 44.3.0
+    created: "2023-01-26T12:12:24.618927917Z"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 44.3.0
+    description: 'A Helm chart for kube-prometheus-stack. This acts as an umbrella
+      chart. '
+    digest: e9210178a8694f04a6cd5ebcf283450bee5e06f052b241ba03724d0179ca9dd7
+    home: https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/argo-cd-app
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    maintainers:
+    - name: rene
+    name: kube-prometheus-stack-app
+    type: application
+    urls:
+    - https://hdi-cloud.pages.we.decodeinsurance.de/tkp/app-catalog/catalogs/production/kube-prometheus-stack-app-0.0.1.tgz
+    version: 0.0.1
   kyverno-policies-app:
   - apiVersion: v2
     appVersion: 0.0.4
@@ -352,4 +372,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/tkp-customer-cluster-init-app-0.1.1.tgz
     version: 0.1.1
-generated: "2023-01-26T10:21:58.116941824Z"
+generated: "2023-01-26T12:12:24.588587938Z"
