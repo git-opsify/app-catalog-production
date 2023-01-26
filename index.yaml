@@ -258,6 +258,18 @@ entries:
     version: 0.0.1
   onboarding-operator-app:
   - apiVersion: v2
+    appVersion: 0.1.11
+    created: "2023-01-26T13:23:07.886977465Z"
+    description: Helm Chart for the onboarding-operator-app
+    digest: 887463f524ead7419f9a2752ae7013d3384f9f4e35005fb2a3cbfed339f94161
+    name: onboarding-operator-app
+    sources:
+    - https://git.we.decodeinsurance.de/hdi-cloud/tkp/labs/onboarding-operator
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-production/onboarding-operator-app-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
     appVersion: 0.1.10
     created: "2023-01-26T10:21:58.117505084Z"
     description: Helm Chart for the onboarding-operator-app
@@ -372,4 +384,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/tkp-customer-cluster-init-app-0.1.1.tgz
     version: 0.1.1
-generated: "2023-01-26T12:12:24.588587938Z"
+generated: "2023-01-26T13:23:07.886387514Z"
