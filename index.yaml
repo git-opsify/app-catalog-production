@@ -351,6 +351,25 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/onboarding-operator-app-0.1.0.tgz
     version: 0.1.0
+  thanos-app:
+  - apiVersion: v2
+    appVersion: 0.30.1
+    created: "2023-01-27T08:57:57.652797769Z"
+    dependencies:
+    - name: thanos
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.0.0
+    description: 'A Helm chart for thanos. This acts as an umbrella chart. '
+    digest: 62b43cca23fb69d3787c000eb89292ef9fc8bc9d10bed13e4fc308b4f9b1bead
+    home: https://git.we.decodeinsurance.de/hdi-cloud/tkp/app-catalog/apps/thanos-app
+    icon: https://cncf-branding.netlify.app/img/projects/thanos/icon/color/thanos-icon-color.png
+    maintainers:
+    - name: rene
+    name: thanos-app
+    type: application
+    urls:
+    - https://git-opsify.github.io/app-catalog-production/thanos-app-0.0.1.tgz
+    version: 0.0.1
   tkp-customer-app:
   - apiVersion: v2
     appVersion: 0.1.5
@@ -384,4 +403,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/tkp-customer-cluster-init-app-0.1.1.tgz
     version: 0.1.1
-generated: "2023-01-26T13:23:07.886387514Z"
+generated: "2023-01-27T08:57:57.64114725Z"
