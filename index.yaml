@@ -210,6 +210,25 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/external-secrets-app-0.1.3.tgz
     version: 0.1.3
+  grafana-app:
+  - apiVersion: v2
+    appVersion: 9.3.6
+    created: "2023-02-01T11:57:46.459033997Z"
+    dependencies:
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.50.6
+    description: 'A Helm chart for grafana. This acts as an umbrella chart. '
+    digest: fa8cea90ed260ba12a149922801edd88b5968eafc6c8982324787450583cda83
+    home: https://git.we.decodeinsurance.de/hdi-cloud/tkp/app-catalog/apps/grafana-app
+    icon: https://landscape.cncf.io/logos/grafana.svg
+    maintainers:
+    - name: wanddynosios
+    name: grafana-app
+    type: application
+    urls:
+    - https://hdi-cloud.pages.we.decodeinsurance.de/tkp/app-catalog/catalogs/production/grafana-app-0.0.1.tgz
+    version: 0.0.1
   kube-prometheus-stack-app:
   - apiVersion: v2
     appVersion: 44.3.0
@@ -422,4 +441,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/tkp-customer-cluster-init-app-0.1.1.tgz
     version: 0.1.1
-generated: "2023-01-27T12:00:11.083676198Z"
+generated: "2023-02-01T11:57:46.454491122Z"
