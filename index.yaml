@@ -403,10 +403,10 @@ entries:
     version: 0.1.0
   prom-label-proxy-app:
   - apiVersion: v2
-    appVersion: v0.5.0
-    created: "2023-02-07T13:17:14.02178782Z"
+    appVersion: v0.6.0
+    created: "2023-02-07T13:21:22.132818403Z"
     description: A proxy that enforces a given label in a given PromQL query.
-    digest: 8dabc02387790015e96e9f88ed7599c10091ae2571d4d93d385bf537ea1fc767
+    digest: e1e4dcc0a9736b6254b709d994ef0c7880c79e4a2f2ee3f3c57c52699942502e
     home: https://github.com/prometheus-community/prom-label-proxy
     keywords:
     - metric
@@ -472,4 +472,4 @@ entries:
     urls:
     - https://git-opsify.github.io/app-catalog-production/tkp-customer-cluster-init-app-0.1.1.tgz
     version: 0.1.1
-generated: "2023-02-07T13:17:14.020894365Z"
+generated: "2023-02-07T13:21:22.131879002Z"
